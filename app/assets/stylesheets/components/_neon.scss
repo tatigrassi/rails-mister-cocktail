@@ -1,0 +1,33 @@
+.t1 {
+  font-family: 'Warnes', cursive;
+  font-weight: normal;
+  font-size: 38px;
+  line-height: 1.2em;
+  margin: 110px 0 110px -20px;
+  color: rgba(255,255,255,1);
+  -ms-transform: rotate(-20deg);
+  -webkit-transform: rotate(-20deg);
+  transform: rotate(-20deg);
+  padding: 30px;
+}
+
+.neon_text {
+  text-shadow:
+    -2px -2px 10px #fff,
+    2px 2px 10px #fff,
+    0 0 20px #ff00de,
+    0 0 40px #ff00de,
+    0 0 60px #ff00de,
+    0 0 80px #ff00de,
+    0 0 100px #ff00de;
+}
+
+.neon_box {
+  box-shadow:
+    0 0 5px #fff,
+    inset 0 0 5px #fff,
+    0 0 20px #ff00de,
+    inset 0 0 20px #ff00de,
+    0 0 20px 2px #ff00de,
+    inset 0 0 20px 2px #ff00de;
+}

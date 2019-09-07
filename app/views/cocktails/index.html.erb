@@ -1,23 +1,11 @@
- <div>
-  <%= link_to "add cocktail", new_cocktail_path  %>
-    <h1>“In wine there is wisdom, in beer there is Freedom, in water there is bacteria”</h1>
-    <h3>they said...</h3>
-    <br>
-    <h1>“Let's make drinks!”</h1>
-    <div>
-      <% @cocktails.each do |cocktail| %>
-        <div>
-          <%= link_to cocktail.name, cocktail_path(cocktail) %>
-        </div>
-      <% end %>
-    </div>
-</div>
-<!--       <div class="carousel">
+ <div class="background" style="background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(https://images.unsplash.com/photo-1468072114808-903e572b8ead?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1566&q=80);"></div>
+   <h1>Eu mesma que fiz</h1>
+ <!--    <%= link_to "add cocktail", new_cocktail_path  %>
 
-  <div class="carousel__slide"><img class="slide__image" src="https://images.unsplash.com/photo-1521252690909-12bf8ef40082?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80" alt="">
+        <% @cocktails.each do |cocktail| %>
+          <div>
+            <%= link_to cocktail.name, cocktail_path(cocktail) %>
+          </div>
+        <% end %> -->
+      </div>
   </div>
-  <div class="carousel__slide"><img class="slide__image" src="https://images.unsplash.com/photo-1468072114808-903e572b8ead?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1566&q=80" alt="">
-  </div>
-  <div class="carousel__slide"><img class="slide__image" src="https://images.unsplash.com/photo-1547059470-3b0c7cd958a4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80" alt="">
-  <div>
-</div> -->

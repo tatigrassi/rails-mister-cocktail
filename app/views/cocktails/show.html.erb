@@ -8,6 +8,10 @@
 
 <%=link_to "Back to home", root_path %>
 
-<%= link_to "Add a dose",  new_cocktail_dose_path(@cocktail)  %>
+<%= link_to "Add a dose", cocktail_doses_path(@cocktail) %>
 
-<%= link_to "Delete a cocktail", dose_path  %>
+<%= link_to "Delete this cocktail", cocktail_path(@cocktail),
+    method: :delete,
+    data: { confirm: "Are you sure?" } %>
+
+    <!-- <div class="notice">Delete success</div> -->
