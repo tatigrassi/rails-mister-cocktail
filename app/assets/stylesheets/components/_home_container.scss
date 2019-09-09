@@ -1,5 +1,5 @@
 .btn-home-orange {
-  color: $my-white;
+  color: $my-orange;
   font-size: 24px;
   font-style: bold;
   font-family: 'Dosis', sans-serif;
@@ -7,7 +7,7 @@
   height: 100px;
   width: 280px;
   padding: 30px;
-  background-color: rgba(255,140,0,0.4);
+  background: linear-gradient(127deg, rgba(12,9,13,1) 19%, rgba(255,140,0,0.3) 96%);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -16,7 +16,7 @@
   border-width: 0px;
   a { color: inherit; }
   a:hover {
-    color: $my-white;
+    color: $my-orange;
     text-decoration: none;
   }
 }
