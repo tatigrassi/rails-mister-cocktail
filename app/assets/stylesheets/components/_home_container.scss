@@ -21,6 +21,44 @@
   }
 }
 
+.btn-home-verde-neon {
+  color: #42297B;
+  font-size: 30px;
+  text-shadow: 0.5px 0.5px 0.5px rgba(0,0,0,0.5);
+  font-family: 'Concert One', cursive;
+  text-decoration: none;
+  height: 80px;
+  width: 330px;
+  padding-top: 13px;
+  background-color: #DDD92A;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0px;
+  border-radius: 2px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+  letter-spacing: 1px;
+  a { color: inherit; }
+  a:hover {
+    color: #42297B;
+    text-decoration: none;
+  }
+}
+
+.inner-border {
+  border: 2px;
+  border-color: #42297B;
+  border-style: solid;
+  outline: 10px;
+  outline-offset: -30px;
+  padding: 10px;
+}
+
+.inner-outline {
+  outline: 2px solid #42297B;
+  outline-offset: -7px;
+}
+
 .home-container {
   display: flex;
   flex-direction: column;
