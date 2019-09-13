@@ -1,13 +1,18 @@
 <div class="background" style="background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(https://images.unsplash.com/photo-1468072114808-903e572b8ead?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1566&q=80);"></div>
-<div class="home-container">
-  <%= button_tag(type: 'Criar um Drink', class: "btn-home-orange") do %>
-    <%= link_to 'Criar um Drink', new_cocktail_path %>
+<div class="index-container">
+  <%= button_tag(type: 'CRIAR UM DRINK', class: "btn-drink-create inner-border inner-outline") do %>
+    <%= link_to 'CRIAR UM DRINK', new_cocktail_path %>
   <% end %>
-</div>
 
-<div>
-  <% @cocktails.each do |cocktail| %>
-    <%= link_to cocktail.name, cocktail_path(cocktail) %>
-  <% end  %>
+
+  <div class="card-index">
+    <div class="img-card-index">
+    </div>
+  <div>
+      <% @cocktails.each do |cocktail| %>
+      <%= link_to cocktail.name, cocktail_path(cocktail) %>
+      <% end  %>
+    </div>
+  </div>
 </div>
 
