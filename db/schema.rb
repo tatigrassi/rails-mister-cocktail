@@ -17,6 +17,8 @@ ActiveRecord::Schema.define(version: 2019_08_08_102542) do
 
   create_table "cocktails", force: :cascade do |t|
     t.string "name"
+    t.text "cocktail_story"
+    t.string "photo"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
